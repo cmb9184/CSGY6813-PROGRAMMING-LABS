@@ -1,0 +1,13 @@
+def main():
+  if "testfile.txt.a" in listfiles():
+    removefile("testfile.txt.a")
+  if "testfile.txt.b" in listfiles():
+    removefile("testfile.txt.b")
+
+  myfile = ABopenfile("testfile.txt", True)
+
+  assert('SE' == myfile.readat(None, 0))
+  myfile.writeat("Stest12345E", 0)
+  assert('SE' == myfile.readat(None, 0))
+  myfile.close()
+  

@@ -1,0 +1,6 @@
+https://github.com/kcg295/seattlelib_v2 ../DEPENDENCIES/seattlelib_v2
+https://github.com/kcg295/portability ../DEPENDENCIES/portability
+https://github.com/kcg295/seash ../DEPENDENCIES/seash
+https://github.com/kcg295/affix ../DEPENDENCIES/affix
+https://github.com/kcg295/common ../DEPENDENCIES/common
+https://github.com/kcg295/utf ../DEPENDENCIES/utf
